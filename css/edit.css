@@ -1,0 +1,26 @@
+.bg{
+ background-image:url(/img/2.png);
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130%
+
+}
+/* body,html{
+  height: 150%;
+} */
+.row{
+    padding-right: 50px;
+}
+#add{
+    margin-top: 10px;
+}
+.bb{
+    margin-top: 10px;
+}
+@media only screen and (max-width: 767px) {
+  body {
+    
+    background-image: url(/img/2.png);
+  }
+} 

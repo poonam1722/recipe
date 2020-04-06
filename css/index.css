@@ -1,0 +1,31 @@
+.bg{
+ background-image:url(/img/1.png);
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+#search-text{
+    
+    margin-top: 20px;
+}
+#add:hover{
+color: blueviolet;
+}
+#recipe{
+    border:1px ;
+    margin-top: 20px;
+}
+    .responsive {
+  max-width: 100%;
+  height: auto;
+}
+.row{
+    padding-right: 50px;
+}
+@media only screen and (max-width: 767px) {
+  body {
+    
+    background-image: url(/img/1.png);
+  }
+} 
