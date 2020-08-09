@@ -64,8 +64,8 @@ const generatetododom = function (todo) {
  //summing everything up
     dive1.appendChild(checke1).style.padding="0 0 0 10";
     dive1.appendChild(texte1).style.padding = "0 0 0 10";
-    dive1.appendChild(button).style.margin = "0 0 10 150";
-
+    dive1.appendChild(button).style.margin = "0 0 10 100";
+    dive1.appendChild(button).style.padding = "3 3 3 3";
     texte1.textContent = todo.text
     return dive1
 }

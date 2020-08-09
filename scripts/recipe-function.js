@@ -20,7 +20,8 @@ const generatedom=function (recipes) {
         n.textContent = 'unnamed recipe'
     }
     n.setAttribute('href',`edit.html#${recipes.id}`)
-   dive1.appendChild(n).style.color="black"
+    dive1.appendChild(n).style.color = "black"
+    dive1.appendChild(n).style.marginTop="30"
     return dive1
 }
 
